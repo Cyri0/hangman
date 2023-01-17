@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    border: 1px solid red;
+}
+
+#left-wrapper, #right-wrapper, #status-wrapper{
+    border: 1px solid black;
+}
+
+#left-wrapper, #right-wrapper{
+    width: 50%;
+    float: left;
+    min-height: 300px;
+    box-sizing: border-box;
+}
+
+#left-wrapper{
+
+}
+
+#right-wrapper button{
+    width: 20%;
+    height: 45px;
+}
+
+#status-wrapper{}
+
+#status{
+    text-align: center;
+    letter-spacing: 10px;
+}
